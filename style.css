@@ -8,14 +8,20 @@ body {
   font-family: "Inter", sans-serif;
   color: #3B3B3B;
   height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
+  padding: 80px;
 }
-
 .container {
   display: flex;
+  justify-content: center;
   gap: 20px;
+}
+@media (max-width: 1150px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .card {
